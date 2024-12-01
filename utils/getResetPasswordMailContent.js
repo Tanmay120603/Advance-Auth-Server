@@ -10,7 +10,7 @@ exports.getResetPasswordMailContent=function(user,redirectUrl){
         <div style="text-align: center; margin: 20px 0;">
           <a href=${redirectUrl} style="background-color: #4CAF50; color: #ffffff; padding: 10px 20px; text-decoration: none; font-size: 16px; border-radius: 5px;">Reset Password</a>
         </div>
-        <p>If you did not request this, please ignore this email. This link will expire in 24 hours.</p>
+        <p>If you did not request this, please ignore this email. This link will expire in 15 mins.</p>
         <p>Thank you, <br> The Blog site Team</p>
       </div>
       <div style="background-color: #f1f1f1; text-align: center; padding: 10px 20px; font-size: 12px; color: #777;">
